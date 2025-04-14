@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Freel Peak",
+    "elevation": 10891
+  },
+  {
+    "id": 2,
+    "name": "Monument Peak",
+    "elevation": 10077
+  },
+  {
+    "id": 3,
+    "name": "Pyramid Peak",
+    "elevation": 9983
+  },
+  {
+    "id": 4,
+    "name": "Mt. Tallac",
+    "elevation": 9735
+  },
+  {
+    "id": 5,
+    "name": "Slide Mountain",
+    "elevation": 9703
+  },
+  {
+    "id": 6,
+    "name": "Granite Chief",
+    "elevation": 9006
+  },
+  {
+    "name": "Monument Peak",
+    "elevation": 1234,
+    "id": 7
+  }
+]

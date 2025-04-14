@@ -4,7 +4,7 @@
 
 ### 컴포넌트
 
-/app-master/src/components
+**/app-master/src/components**
 
 1. Memo
 
@@ -20,7 +20,7 @@
 
 ### 훅
 
-/app-master/src/hooks
+**/app-master/src/hooks**
 
 1. useAnyKeyToRender
 
@@ -32,7 +32,7 @@
 
 ### 이벤트
 
-/app-master/src/common/eventHandle
+**/app-master/src/common/eventHandle**
 
 1. InputForm.handleChange
 
@@ -56,7 +56,7 @@
 
 ### 공용 함수
 
-/app-master/src/common
+**/app-master/src/common**
 
 1. 배열 - arrays.js
 
@@ -69,3 +69,17 @@
    - validateEmail
 
      이메일 형식 처리 정규식
+
+### 서버
+
+**/app-master/src/server**
+
+1. 서버 node - server.js
+
+   - readData
+
+     데이터 읽기 함수
+
+   - writeData
+
+     테이터 쓰기 함수
