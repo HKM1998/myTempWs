@@ -1,0 +1,29 @@
+/* SiteLayout.css */
+.site-container {
+  display: flex; /* Flexbox 레이아웃 사용 */
+  width: 100%;
+  min-height: 100vh;
+}
+
+.site-container > div:first-child {
+  /* 메뉴 영역 */
+  width: 200px; /* 사이드 메뉴 너비 설정 (조정 가능) */
+  background-color: #333; /* 메뉴 배경색 */
+  color: white; /* 메뉴 텍스트 색상 */
+  padding: 14px; /* 테두리 두께만큼 안쪽 여백 조정 */
+  border: 2px double #555;
+}
+
+.site-container > div:last-child {
+  /* 콘텐츠 영역 */
+  flex-grow: 1; /* 남은 공간을 모두 차지하도록 설정 */
+  padding: 20px;
+}
+
+.callout {
+  background-color: #f0f0f0; /* Callout 배경색 */
+  padding: 30px; /* 테두리 두께만큼 안쪽 여백 조정 */
+  margin-bottom: 10px;
+  border: 2px double black; /* 이중 실선 검은색 테두리 */
+  border-left: 5px solid #ccc; /* 기존 Callout 강조선 유지 */
+}

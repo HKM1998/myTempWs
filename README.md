@@ -16,7 +16,16 @@
 
 3. ShoppingCart
 
-   useReducer 사용 예제 컴포넌트 데이터
+   useReducer 사용 예제 컴포넌트 데이터 (fliter, map 등 포함)
+
+4. CRUD
+
+   REST API 처럼 HTTP 메서드를 활용한 CRUD 예제
+
+5. RepositoryReadme
+
+   깃허브 API로 Read me 조회
+   async/await로 비동기 통신 사용, ReactMarkdown 사용
 
 ### 훅
 
