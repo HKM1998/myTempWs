@@ -1,5 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
+/**
+ * 에러 발생시 fallback을 보여주는 컴포넌트
+ */
 class ClassErrorBoundary extends Component {
   constructor(props) {
     super(props);
@@ -21,7 +24,11 @@ class ClassErrorBoundary extends Component {
   render() {
     if (this.state.hasError) {
       // 오류가 발생하면 사용자 정의 fallback UI를 렌더링할 수 있습니다.
-      return this.props.fallback ? <this.props.fallback error={this.state.error} /> : <div>Something went wrong!</div>;
+      return this.props.fallback ? (
+        <this.props.fallback error={this.state.error} />
+      ) : (
+        <div>Something went wrong!</div>
+      );
     }
 
     return this.props.children;

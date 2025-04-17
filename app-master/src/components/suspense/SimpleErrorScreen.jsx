@@ -1,3 +1,8 @@
+/**
+ * 간단한 에러화면 컴포넌트
+ * @param {{error : Error}} param0
+ * @returns
+ */
 function SimpleErrorScreen({ error }) {
   return (
     <div

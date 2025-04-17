@@ -2,6 +2,19 @@
 
 프로젝트 전 템플릿 작성용
 
+## app-master
+
+컴포넌트 및 하위 구조에 대한 예제로 구성
+
+### 구조
+
+1. suspense/fallback
+
+   ##### /app-master/src/components/suspense
+
+   - 간단한 에러처리와 로딩중 화면을 처리하는 예제
+   - 단, suspense와 fallback 구조는 랜더링 중의 에러만 감지하므로 랜더링이 아닌 코드 실행 중 에러가 발생할 수 있는 구조에는 try-catch를 사용해야 한다.
+
 ### 컴포넌트
 
 **/app-master/src/components**
@@ -92,3 +105,7 @@
    - writeData
 
      테이터 쓰기 함수
+
+## todoApp-master
+
+감정일기장 예제 Context 와 Route, 하위 컴포넌트들의 예제 확인 가능

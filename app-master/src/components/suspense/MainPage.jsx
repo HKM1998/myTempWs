@@ -3,6 +3,10 @@ import Menu from "./Menu";
 import SiteLayout from "./SiteLayout";
 import "../../css/SiteLayout.css";
 
+/**
+ * SiteLayout 컴ㅍ포넌트에 메뉴 컴포넌트와 자식요소를 추가하는 컴포넌트
+ * @returns
+ */
 const MainPage = () => {
   return (
     <SiteLayout menu={<Menu />}>
